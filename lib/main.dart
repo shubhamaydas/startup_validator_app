@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'services/auth_service.dart';
 import 'services/firestore_service.dart';
 import 'screens/splash_screen.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,6 +26,7 @@ void main() async {
       ),
     );
   }
+
   runApp(const MyApp());
 }
 

@@ -25,6 +25,7 @@ dependencies:
   # Utilities
   intl: ^0.18.1
   uuid: ^4.2.2
+  firebase_analytics: ^11.6.0
 
 dev_dependencies:
   flutter_test:
